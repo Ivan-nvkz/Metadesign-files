@@ -90,6 +90,13 @@
 .page-work__conten-container-line:nth-child(5) {
    left: 94.5%;
 }
+@media (max-width: 490px) {
+   .page-work__conten-container-line {
+      width: 0;
+      height: 0;
+   }
+}
+
 .page-work__menu-wrapper {
    position: relative;
 }
